@@ -44,8 +44,45 @@ cual, genera un nuevo gato. Por ejemplo, sería válido algo como Gato cria
 el método debe generar la excepción ExcepcionApareamientoImposible. Crea un
 programa desde el que se pruebe el método.
 
+```
+Ejemplo:
+Para Garfield y Tom, ambos gatos son del mismo sexo, no pueden aparearse
+Para Tom y Garfield, ambos gatos son del mismo sexo, no pueden aparearse
+Nombres de los padres: Tom y Lisa
+******************
+* DATOS DEL GATO *
+******************
+Nombre: Nuevo gato
+Sexo: Macho
+Raza: Atún
+Comida favorita: Pescado
+
+Nombres de los padres: Lisa y Garfield
+******************
+* DATOS DEL GATO *
+******************
+Nombre: Nuevo gato
+Sexo: Macho
+Raza: Atún
+Comida favorita: Pescado
+```
+
 ## Ejercicio 3
 
 Realiza un programa que genere una excepción de forma aleatoria de entre
 las siguientes excepciones: NumberFormatException, IOException, FileNotFoundException,
 IndexOutOfBoundsException y ArithmeticException.
+
+```
+Ejemplo:
+1: Excepción ArithmeticException
+2: Excepción IOException
+3: Excepción ArithmeticException
+4: Excepción NumberFormatException
+5: Excepción IOException
+6: Excepción FileNotFoundException
+7: Excepción ArithmeticException
+8: Excepción IndexOutOfBoundsException
+9: Excepción IOException
+10: Excepción NumberFormatException
+```
