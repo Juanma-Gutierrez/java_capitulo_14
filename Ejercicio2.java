@@ -20,17 +20,11 @@ public class Ejercicio2 {
 		Gato garfield = new Gato("Garfield", "Macho", "Pescado", "Pescado");
 		Gato tom = new Gato("Tom", "Macho", "Atún", "Atún");
 		Gato lisa = new Gato("Lisa", "Hembra", "Salmón", "Salmón");
-		Gato gato1;
-		Gato gato2;
 
-		gato1 = garfield;
-		gato2 = tom;
-		aparea(gato1, gato2);
-		gato1 = tom;
-		gato2 = garfield;
-		aparea(gato1, gato2);
-		gato2 = lisa;
-		aparea(gato1, gato2);
+		aparea(garfield, tom);
+		aparea(tom, garfield);
+		aparea(tom, lisa);
+		aparea(lisa, garfield);
 	}
 
 	public static void aparea(Gato gato1, Gato gato2) {
