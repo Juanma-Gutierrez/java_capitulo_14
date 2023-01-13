@@ -18,6 +18,23 @@ Realiza un programa que pida 6 números por teclado y nos diga cuál es el
 máximo. Si el usuario introduce un dato erróneo (algo que no sea un número
 entero) el programa debe indicarlo y debe pedir de nuevo el número.
 
+```
+Ejemplo:
+Por favor, introduzca el número 1: 123
+Por favor, introduzca el número 2: abc
+El dato introducido no es correcto.
+Debe introducir un número entero. Por favor, introduzca el número 2: 80
+Por favor, introduzca el número 3: 35
+Por favor, introduzca el número 4: qwerty
+El dato introducido no es correcto.
+Debe introducir un número entero. Por favor, introduzca el número 4: zxcv
+El dato introducido no es correcto.
+Debe introducir un número entero. Por favor, introduzca el número 4: 42
+Por favor, introduzca el número 5: 24
+Por favor, introduzca el número 6: 36
+El mayor número introducido es el 123
+```
+
 ## Ejercicio 2
 
 Modifica la clase Gato vista anteriormente añadiendo el método apareaCon.

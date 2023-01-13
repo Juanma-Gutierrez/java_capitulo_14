@@ -25,12 +25,12 @@ public class Ejercicio1 {
 
 		max = Integer.MIN_VALUE;
 		for (int i = 0; i < 6; i++) {
-			num = pideNumero("Por favor, introduce el número " + (i + 1) + ": ",
-					"El dato introducido no es correcto.\nDebe introducir un número entero.", sc);
+			num = pideNumero("Por favor, introduzca el número " + (i + 1) + ": ",
+					"El dato introducido no es correcto.\nDebe introducir un número entero. ", sc);
 			if (num > max)
 				max = num;
 		}
-		System.out.println("El número introducido mayor es el " + max);
+		System.out.println("El mayor número introducido es el " + max);
 
 		// Close scanner
 		sc.close();
@@ -44,6 +44,9 @@ public class Ejercicio1 {
 				System.out.print(intro);
 				num = sc.nextInt();
 				datoValido = true;
+			} catch (IllegalStateException e) {
+				sc = new Scanner(System.in);
+				System.out.println("Por favor, introduzca el número de nuevo.");
 			} catch (Exception e) {
 				System.out.print(error);
 				sc.nextLine();
